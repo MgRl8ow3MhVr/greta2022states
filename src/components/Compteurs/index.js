@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./compteurs.css";
+import "./index.css";
 
 const Compteurs = () => {
   const [compteur1, setCompteur1] = useState(0);

@@ -6,6 +6,7 @@ import Home from "./components/Home/";
 import Header from "./components/Header";
 import Selecteurs from "./components/Selecteurs";
 import Movers from "./components/Movers";
+import Modale from "./components/Modal";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="compteurs" element={<Compteurs />} />
         <Route path="selecteurs" element={<Selecteurs />} />
         <Route path="movers" element={<Movers />} />
+        <Route path="modale" element={<Modale />} />
       </Routes>
     </BrowserRouter>
   );
