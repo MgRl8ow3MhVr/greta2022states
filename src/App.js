@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Selecteurs from "./components/Selecteurs";
 import Movers from "./components/Movers";
 import Modale from "./components/Modal";
+import Converters from "./components/Converters";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="selecteurs" element={<Selecteurs />} />
         <Route path="movers" element={<Movers />} />
         <Route path="modale" element={<Modale />} />
+        <Route path="converters" element={<Converters />} />
       </Routes>
     </BrowserRouter>
   );
