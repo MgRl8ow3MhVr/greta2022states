@@ -6,6 +6,8 @@ const Header = () => {
   return (
     <div className="header">
       <Link to="compteurs">compteurs</Link>
+      <Link to="selecteurs">selecteurs</Link>
+      <Link to="movers">movers</Link>
     </div>
   );
 };

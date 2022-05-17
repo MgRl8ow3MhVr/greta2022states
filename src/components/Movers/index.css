@@ -1,0 +1,13 @@
+.moversContainer{
+    width: 100%;
+    background-color: purple;
+    height: 100vh;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-image: url("https://i.discogs.com/513pWGa70fhWMULVo5AFTaMGE8Mbvpd0CO_WnXjvqJ0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0MDAz/MTctMTMzNTcxNzQ3/Ni5wbmc.jpeg");
+    background-size: cover;
+    /* transform: translate(100px,0); */
+}
