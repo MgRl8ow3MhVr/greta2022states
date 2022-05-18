@@ -8,6 +8,8 @@ import Selecteurs from "./components/Selecteurs";
 import Movers from "./components/Movers";
 import Modale from "./components/Modal";
 import Converters from "./components/Converters";
+import Images from "./components/Images";
+import Configurateur from "./components/Configurateur";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="movers" element={<Movers />} />
         <Route path="modale" element={<Modale />} />
         <Route path="converters" element={<Converters />} />
+        <Route path="images" element={<Images />} />
+        <Route path="configurateur" element={<Configurateur />} />
       </Routes>
     </BrowserRouter>
   );

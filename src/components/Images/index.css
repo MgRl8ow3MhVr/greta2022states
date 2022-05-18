@@ -1,0 +1,15 @@
+.imgContainer {
+    height: 100vh;
+    background-color: cyan;
+    width: 100%;
+}
+
+.oneItem img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    background-color: red;
+    border:solid 2px black;
+    object-position: center;
+
+}

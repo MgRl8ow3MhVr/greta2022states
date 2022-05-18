@@ -10,6 +10,8 @@ const Header = () => {
       <Link to="movers">movers</Link>
       <Link to="modale">modale</Link>
       <Link to="converters">converters</Link>
+      <Link to="images">Images</Link>
+      <Link to="configurateur">Configurateur</Link>
     </div>
   );
 };
